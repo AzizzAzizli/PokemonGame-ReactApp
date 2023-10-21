@@ -1,0 +1,29 @@
+.container {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.content_info {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.content_isWinner {
+  font-size: 40px;
+  font-weight: 600;
+}
+.content_power {
+  color: rgb(31, 6, 72);
+  font-size: 30px;
+  font-weight: 700;
+}
+.winner {
+  color: rgb(26, 159, 26);
+}
+.loser {
+  color: rgb(207, 28, 28);
+}
