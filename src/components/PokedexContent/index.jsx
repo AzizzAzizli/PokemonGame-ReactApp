@@ -20,7 +20,6 @@ export const PokedexContent = (props) => {
       <div className={`${styles.container}`}>
         {props.pokemons?.map((pokemon) => (
           <Card
-            isWinner={props.isWinner}
             key={"pokecard" + pokemon.id}
             {...pokemon}
             // type={pokemon.type}
