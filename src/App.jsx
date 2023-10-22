@@ -35,7 +35,7 @@ function App() {
   return (
     <>
       <PokeHead onClick={start} />
-      {secondTeam.length && (
+      {!!secondTeam.length && (
         <>
           <PokedexContent
             isWinner={totalPowerFirstTeam > totalPowerSecondTeam}
